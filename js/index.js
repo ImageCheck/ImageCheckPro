@@ -11,8 +11,7 @@ const chkTerminos = document.getElementById('chkTerminos');
 
 
 $(btnEnviarFrmContacto).on("click", e => {
-    
-    debugger
+        
     e.preventDefault();
     e.stopImmediatePropagation();
     $("#mdlContacto").modal("hide");

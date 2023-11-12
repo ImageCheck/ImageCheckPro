@@ -16,7 +16,7 @@ const txtMensaje = document.getElementById('txtMensaje');
 
 $(btnEnviarFrmContacto).on("click", e => {
     
-    debugger
+    
     e.preventDefault();
     e.stopImmediatePropagation();
     $("#mdlContacto").modal("hide");
